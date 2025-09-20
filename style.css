@@ -1,0 +1,92 @@
+.title_info {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 16px;
+  margin-top: -8px;
+}
+
+.wiki_link {
+  color: #1976d2;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+.wiki_link:hover {
+  color: #0d47a1;
+}
+
+.blockquote1 {
+  background: #fafafa;
+  border-left: 4px solid #e0e0e0;
+  padding: 24px 24px 24px 32px;
+  margin: 32px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+.blockquote1 h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.blockquote1_numeration {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #000000;
+}
+.blockquote1_text {
+  color: #333;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  }
+body {
+  background: #fff;
+  min-height: 100vh;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #222;
+}
+
+.centered-container {
+  max-width: 1020px;
+  margin: 40px auto;
+  padding: 0 48px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.main_text1,
+.main_text{
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #00000054;
+  margin-bottom: 24px;
+}
+.block_quote,
+.block_quote1{
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #00000054;
+  border-left: 4px solid #e0e0e0;
+  padding-left: 16px;
+  margin: 24px 0;
+}
